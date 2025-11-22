@@ -54,10 +54,8 @@ export default function Header() {
             <li><Link to='/about' onClick={close}   className='linking'>About</Link></li>
             <li><Link to='/services' onClick={close}  className='linking'>Services</Link></li>
             <li><Link to='/clients' onClick={close} className='linking'>Clients</Link></li>
-            <li><Link to='/products' onClick={close} className='linking'>Why <span style={{color:'#ffc221'}}>ARVAT</span></Link></li>
             <li><Link to='/products' onClick={close} className='linking'>Careers</Link></li>
-            <Link to='/contactus' onClick={close} ><button className='contactus_laptop'>Contact us</button></Link>
-            <li><Link to='/contactus' onClick={close} className='contactus_mobile'>Contact us</Link></li>
+            <li><Link to='/contactus' onClick={close} className='linking'>Contact</Link></li>
             </ul>
         </div>
     </div>

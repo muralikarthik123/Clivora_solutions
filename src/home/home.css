@@ -3,14 +3,13 @@
         
         .box{
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
+            flex-direction: column;
+            margin-left: 5%;
                 .box1{
-                    width:50%;
+                    width:90%;
                 }
                 .box2{
-                    width:50%;
+                    width:90%;
                     .img1{
                         width: 100%;
                         height: auto;
