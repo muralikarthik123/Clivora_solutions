@@ -1,0 +1,270 @@
+/*mobile*/
+
+@media(max-width:500px){
+    .header{
+        width:100%;
+        background-color: #f7f7f7;
+        height: 80px;
+        position: fixed;
+        z-index: 1;
+        /*top bar*/
+        .box1{
+            max-width:100%;
+            background-color: #111425;
+            height:8vh;
+            display:flex;
+            flex-direction: row;
+            padding-left:4%;
+            align-items: center;
+            color:white;
+            padding-right: 10px;
+            font-size: 1.1rem;
+            p{
+                font-weight: 800;
+            }
+            ul{
+                display:flex;
+                gap:15px;
+                font-size: 0.9rem;
+                li{
+                    list-style-type: none;
+                    cursor: pointer;
+                }
+            }
+        }
+        .c1{
+            width:100%;
+            background-color:#111425 ;
+            position: fixed;
+        .side{
+            display:flex;
+            align-items: center;
+            .logo{
+                width:25%;
+                margin-left: 10px;
+            }
+            .ham{
+                width:20%;
+                display:block;
+                .icon1{
+                    font-size: 30px;
+                    color:white;
+                    margin-left: 20px;
+                }
+            }
+        }
+        
+        .mob{
+            position: fixed;
+            overflow: scroll;
+            width:100%;
+            background-color: white;
+            margin-top: -8px;
+            padding-left: 0px;
+            color:black;
+            height:50vh;
+            overflow-x: hidden;
+            
+            li{
+                padding-top: 15px;
+                padding-left: 5%;
+                list-style-type: none;
+                border: 0.5px solid #176d7c;
+                height:50px;
+                /* .close{
+                    padding-left: 80%;
+                    color: #ffc107;
+                    .icon2{
+                        font-size: 30px;
+                    }
+                } */
+                button{
+                    display:none;
+                    
+                }
+                .linking{
+                    width:100%;
+                    padding-left: 10px;
+                    color:#176d7c;
+                    text-Decoration:none;
+                }
+                
+                .contactus_mobile{
+                    width:100%;
+                    color:#176d7c;
+                    text-Decoration:none;
+                    font-size: 1.2rem;
+                }
+            }
+            .contactus_laptop{
+                display:none;
+            }
+        }
+
+        .lap{
+            display:none;
+        }
+        }
+    }
+}
+
+
+/*tap or ipads*/
+@media(min-width:500px) and (max-width:1200px){
+    .header{
+        width:100%;
+        background-color: #f7f7f7;
+        height: 120px;
+        .c1{
+            width:100%;
+            padding-top: 15px;
+            gap:20%;
+        .side{
+            display:flex;
+
+            .logo{
+                width:90%;
+                margin-left: 5%;
+
+            }
+            .ham{
+                width:10%;
+                margin-top: 30px;
+                display:block;
+                .icon1{
+                    font-size: 50px;
+                    color:green;
+                }
+            }
+        }
+        .mob{
+            position: fixed;
+            width:100%;
+            top:-15px;
+            background-color: green;
+            padding-top: 50px;
+            color:white;
+            z-index: 400;
+            li{
+                list-style-type: none;
+                height:100px;
+                text-align: center;
+                border:none;
+                .close{
+                    padding-left: 78%;
+                    .icon2{
+                        font-size: 30px;
+                    }
+                }
+                button{
+                    border:1px solid black;
+                    border:none;
+                    background-color: green;
+                    color:white;
+                    border-radius: 5px;
+                }
+                
+            }
+            
+            .linking{
+                color:white;
+                text-Decoration:none;
+            }
+            
+            
+        }
+
+        .lap{
+            display:none;
+        }
+        }
+    }
+}
+
+/*laptop*/
+@media(min-width:1200px){
+    .header{
+        width:100%;
+        overflow-x: hidden;
+        /*top bar*/
+        .box1{
+            width:100%;
+           
+            height:8vh;
+            display:flex;
+            padding-left:4%;
+            align-items: center;
+            color:black;
+            padding-right: 10px;
+            font-size: 0.9rem;
+            p{
+                    font-weight: 800;
+            }
+            ul{
+                display:flex;
+                gap:15px;
+                margin-left: 62%;
+                font-size: 0.9rem;
+                li{
+                    list-style-type: none;
+                    cursor: pointer;
+                }
+            }
+        }
+        .c1{
+            width:100%;
+            display:flex;
+            gap:5%;
+            background-color: #111425;
+            height: 120px;
+            
+            .logos{
+                margin-left: 5%;
+                margin-top: 10px;
+                .logo{
+                    width:35%;
+                }
+            }
+        .ham{
+            display:none;
+        }
+        ul{
+            margin-left: 5%;
+            display:flex;
+            gap:7%;
+            align-items: center;
+            .close{
+                display:none;
+            }
+            li{
+                list-style-type: none;
+                
+            }
+            
+            .linking{
+                color:white;
+                text-Decoration:none;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+            .linking:hover{
+                color:white;
+            }
+            .contactus_mobile{
+                display:none;
+            }
+            }
+            button{
+                margin-left: 90%;
+                width:130px;
+                border:1px solid ;
+                border:none;
+                background-color: black;
+                color:white;
+                border-radius: 20px;
+                height:40px;
+                font-size: 1.1rem;text-decoration: underline;           
+            }
+        }
+    }
+}

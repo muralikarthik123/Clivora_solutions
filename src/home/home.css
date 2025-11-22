@@ -1,0 +1,104 @@
+@media(max-width:500px){
+    .home{
+        
+        .box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+                .box1{
+                    width:50%;
+                }
+                .box2{
+                    width:50%;
+                    .img1{
+                        width: 100%;
+                        height: auto;
+                        border-radius: 20px;
+                    }
+                }
+            }
+         .box3
+         {
+            width:100%;
+            display:flex;
+            flex-direction: column;
+            background-color: #eae2e2;
+            gap:5%;
+            padding-top: 10px;
+            height: 150vh;
+            align-items: center;
+            .subbox{
+                width:80%;
+                height: 45vh;
+                h3{
+                    text-align: center;
+                    text-decoration: underline;
+                }
+                p{
+                    padding: 10%;
+                }
+                margin-left: 2%;
+                border:1px solid #111425;
+                background-color:#111425;
+                color:White;
+                border-radius:15px;
+            }
+         }   
+    }
+}
+@media(min-width:1200px){
+    .home{
+        .switch{
+            .c1{
+                width:100%;          
+                .images{
+                    width:100%;  
+                }
+            }
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+                .box1{
+                    width:50%;
+                }
+                .box2{
+                    width:50%;
+                    .img1{
+                        width: 100%;
+                        height: auto;
+                        border-radius: 20px;
+                    }
+                }
+            }
+         .box3
+         {
+            width:100%;
+            display:flex;
+            background-color: #eae2e2;
+            gap:5%;
+            height: 80vh;
+            align-items: center;
+            .subbox{
+                height: 45vh;
+                h3{
+                    text-align: center;
+                    text-decoration: underline;
+                }
+                p{
+                    padding: 10%;
+                }
+
+                width:20%;
+                margin-left: 2%;
+                border:1px solid #111425;
+                background-color:#111425;
+                color:White;
+                border-radius:15px;
+            }
+         }   
+    }
+}
