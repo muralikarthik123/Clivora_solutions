@@ -3,7 +3,7 @@ import Header from './header/header'
 import Footer from './footer/footer'
 import Home from './home/home.jsx'
 import About from './about/about.jsx'
-// import Services from './service/service.jsx'
+import Services from './services/services.jsx'
 
 import {  BrowserRouter, Route,Routes } from 'react-router-dom'
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
-          {/* <Route path='/services' element={<Service/>}/> */}
+          <Route path='/services' element={<Services/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

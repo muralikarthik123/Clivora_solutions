@@ -1,8 +1,116 @@
- .c1{
-     width:100%;          
-     .images{
-        width:100%;  
-        z-index: -1;
-        margin-top: 100px;
-    }        
- }
+@media(max-width:500px){
+    .services{
+        width:100%;
+        .heading{
+            padding-top: 30vh;
+            font-size: 2.2rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .headingcontent{
+            text-align: center;
+            padding-left: 10%;
+            width:80%;
+        }
+        .box{
+            margin-top: 30px;
+            width:100%;
+            display:flex;
+            padding-left:5%;
+            flex-direction: column;
+            .subox{
+                margin-top: 10px;
+                padding: 20px;
+                width:90%;
+                background-color: #111425;
+                color:white;
+                box-shadow: 10px 10px #c7c7c9;
+                border-radius: 10px;
+                
+                h2{
+                    font-weight: 600;
+                    text-decoration: underline;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+    .services{
+        width:100%;
+        .heading{
+            padding-top: 30vh;
+            font-size: 2.2rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .headingcontent{
+            text-align: center;
+            padding-left: 10%;
+            width:80%;
+        }
+        .box{
+            margin-top: 30px;
+            width:100%;
+            display:flex;
+            padding-left:5%;
+            flex-direction: column;
+            .subox{
+                margin-top: 10px;
+                padding: 20px;
+                width:90%;
+                background-color: #111425;
+                color:white;
+                box-shadow: 10px 10px #c7c7c9;
+                border-radius: 10px;
+                
+                h2{
+                    font-weight: 600;
+                    text-decoration: underline;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .services{
+        width:100%;
+        height:100vh;
+        .heading{
+            font-size: 2.2rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .headingcontent{
+            text-align: center;
+            padding-left: 10%;
+            width:80%;
+        }
+        .box{
+            margin-top: 30px;
+            width:100%;
+            display:flex;
+            gap:10%;
+            padding-left: 5%;
+            .subox{
+                padding: 10px;
+                width:25%;
+                background-color: #111425;
+                color:white;
+                box-shadow: 10px 10px #c7c7c9;
+                border-radius: 10px;
+                h2{
+                    font-weight: 600;
+                    text-decoration: underline;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
