@@ -4,7 +4,7 @@ import Footer from './footer/footer'
 import Home from './home/home.jsx'
 import About from './about/about.jsx'
 import Services from './services/services.jsx'
-
+import Contact from './contact/contact.jsx'
 import {  BrowserRouter, Route,Routes } from 'react-router-dom'
 export default function App() {
   return (
@@ -15,6 +15,7 @@ export default function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/services' element={<Services/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

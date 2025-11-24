@@ -39,7 +39,7 @@ export default function footer() {
       <div className='c1'>
         <ul>
             <h1>Address-1</h1>
-        <p><a  style={{textDecoration:'none',color:'white'}} href='https://maps.app.goo.gl/7YSSR65GNK5xzp928'>#1-3/3J-5 , Macherla Road, Opposite market yard, Piduguralla, Andhra Pradesh-522413.</a></p>
+        <p><a  style={{textDecoration:'none',color:'white'}} href='https://maps.app.goo.gl/7YSSR65GNK5xzp928'>Office #409, 4th Floor, Jain sadguru image's capital park, Ayyappa Society, VIP Hills, Jaihind Enclave, Madhapur, Hyderabad, Telangana 500081</a></p>
         </ul>
       </div>
 

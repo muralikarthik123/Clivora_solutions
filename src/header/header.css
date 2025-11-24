@@ -112,7 +112,7 @@
 
 
 /*tap or ipads*/
-@media(min-width:500px) and (max-width:1200px){
+@media(min-width:500px) and (max-width:1199px){
     .header{
         width:100%;
         background-color: #f7f7f7;
@@ -229,9 +229,9 @@
             display:none;
         }
         ul{
-            margin-left: 5%;
+            margin-left: 25%;
             display:flex;
-            gap:7%;
+            gap:25%;
             align-items: center;
             .close{
                 display:none;
@@ -253,17 +253,6 @@
             .contactus_mobile{
                 display:none;
             }
-            }
-            button{
-                margin-left: 90%;
-                width:130px;
-                border:1px solid ;
-                border:none;
-                background-color: black;
-                color:white;
-                border-radius: 20px;
-                height:40px;
-                font-size: 1.1rem;text-decoration: underline;           
             }
         }
     }

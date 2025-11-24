@@ -21,7 +21,7 @@ export default function Header() {
     <div className='header'>
         <div className='box1'>
             <div>
-                <p>Contact : +91 95812 36238</p>
+                <p>Contact :+91 8499959737</p>
             </div>
             <ul>
                 <li><FaFacebookF/></li>
@@ -53,9 +53,7 @@ export default function Header() {
             <li><Link to='/' onClick={close}  className='linking'>Home</Link></li>
             <li><Link to='/about' onClick={close}   className='linking'>About</Link></li>
             <li><Link to='/services' onClick={close}  className='linking'>Services</Link></li>
-            <li><Link to='/clients' onClick={close} className='linking'>Clients</Link></li>
-            <li><Link to='/products' onClick={close} className='linking'>Careers</Link></li>
-            <li><Link to='/contactus' onClick={close} className='linking'>Contact</Link></li>
+            <li><Link to='/contact' onClick={close} className='linking'>Contact</Link></li>
             </ul>
         </div>
     </div>
