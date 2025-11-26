@@ -82,13 +82,24 @@
             height: 80vh;
             align-items: center;
             .subbox{
-                height: 45vh;
+                height: auto;
+                .icons{
+                    font-size: 3.5rem;
+                    margin-left: 10%;
+                    margin-top: 5%;
+                }
                 h3{
-                    text-align: center;
+                    margin-top: 5px;
+                    width:80%;
+                    margin-left: 10%;
                     text-decoration: underline;
+                    font-size: 1.5rem;
                 }
                 p{
-                    padding: 10%;
+                    width:80%;
+                    margin-left: 10%;
+                    margin-bottom: 20%;
+                    font-size: 1.2rem;
                 }
 
                 width:20%;
@@ -97,7 +108,43 @@
                 background-color:#111425;
                 color:White;
                 border-radius:15px;
+                transition:  background-color 5s;
             }
-         }   
+            .subbox:hover{
+                transition:5s;
+                width:20%;
+                margin-left: 2%;
+                background-color:White;
+                color:#111425;
+                border-radius:15px;
+                
+            }
+        }   
+        .box4{
+            width:100%;
+            display:flex;
+            background-color: #111425;
+            height:100vh;
+            padding: 5%;
+            gap:5%;
+            .box4sub1{
+                background-color: #111425;
+                width:50%;
+                .img6{
+                    width:100%;
+                    border-radius: 20px;
+                }
+            }
+            .box4sub2{
+                color: white;
+                width:50%;
+                h6{
+                    text-decoration: underline;
+                }
+                .img6{
+                    width:40%
+                }
+            }
+        }
     }
 }
