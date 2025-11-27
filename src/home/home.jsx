@@ -55,8 +55,9 @@ export default function Home() {
           <p>Our web design services blend creativity and functionality to engage and convert online audiences.</p>
         </div>
       </div>
+    <p></p>
 
-      {/* Working Process Section - Box 4 name was mis */}
+      {/* Working Process Section - Box 4 name was mistaken */}
       <div className="box5">
         <div className="box5sub1">
           <p>Our Working Process</p>
@@ -87,8 +88,9 @@ export default function Home() {
             <p>Effective and free-flowing communication, through the advanced cloud-based partnering tools.</p>
           </div>
         </div>
+        <p></p>
       </div>
-      <p></p>
+      
 
 
       {/* About Us Section - Box 5 */}
@@ -100,7 +102,7 @@ export default function Home() {
 
           <div className="box4sub2">
             <h6>About Us</h6>
-            <h1>Right Partner for Software Innovation</h1>
+            <h3>Right Partner for Software Innovation</h3>
             <p>
               Unlocking Success Together. Explore the key attributes and considerations to identify your ideal web development collaborator in this concise presentation.
             </p>
