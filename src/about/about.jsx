@@ -10,16 +10,16 @@ export default function about() {
         <h1>Right Partner for Software Innovation</h1>
         <p>Arvat Software Solutions is a full-service Web development and software testing agency that puts its focus on achieving key business objectives, rather than just aesthetics or mere technical implementation. Conversions, transactions, engagement, usability, marketability, revenue, ROI, etc., are some very popular words at Arvat Software Solutions.</p>
           <div className='box3'>
-            <div>
-              <h3>IT Consultancy</h3>
-              <h3>Web Development</h3>
-              <h3>Web Site Design</h3>
-              </div>
-            <div>
-              <h3>Digital Services</h3>
-              <h3>SAP</h3>
-              <h3>Cloud</h3>
-            </div>
+            <ul>
+              <li>IT Consultancy</li>
+              <li>Web Development</li>
+              <li>Web Site Design</li>
+              </ul>
+            <ul>
+              <li>Digital Services</li>
+              <li>SAP</li>
+              <li>Cloud</li>
+            </ul>
           </div>
         <p>We’re based in India, a global IT hub that contributes high-quality talent to the world at very competitive prices.</p>
       </div>

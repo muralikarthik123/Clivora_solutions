@@ -1,5 +1,11 @@
 import React from 'react'
 import './services.css'
+import { GrCloudComputer } from "react-icons/gr";
+import { MdAppSettingsAlt } from "react-icons/md";
+import { MdOutlineComputer } from "react-icons/md";
+import { FaBugSlash } from "react-icons/fa6";
+import { BiSupport } from "react-icons/bi";
+import { MdAdd } from "react-icons/md";
 export default function services() {
   return (
     <div className='services'>
@@ -10,18 +16,21 @@ export default function services() {
       <div className='box'>
         {/* sub box 1 */}
         <div className='subox'>
+          <MdOutlineComputer className='icons'/>
           <h2>Web Development </h2>
           <p>Our web development team creates user-friendly, responsive websites,Our web development team creates user-friendly, responsive websites.</p>
         </div>
 
         {/* sub box 2 */}
         <div className='subox'>
+          <GrCloudComputer className='icons'/>
           <h2>Cloud services</h2>
           <p>Our web development team creates user-friendly, responsive websites,Our web development team creates user-friendly, responsive websites.</p>
         </div>
 
         {/* sub box 3 */}
         <div className='subox'>
+          <MdAppSettingsAlt className='icons'/>
           <h2>Mobile Development </h2>
           <p>Our web development team creates user-friendly, responsive websites,Our web development team creates user-friendly, responsive websites.</p>
         </div>
@@ -31,20 +40,23 @@ export default function services() {
       {/* main box2 */}
       <div className='box'>
         <div className='subox'>
-          <h2>QA & testing </h2>
+          <FaBugSlash className='icons'/>
+          <h2>Software & Automachinetesting </h2>
           <p>Our web development team creates user-friendly, responsive websites,Our web development team creates user-friendly, responsive websites.</p>           
         </div>
         <div className='subox'>
-          <h2>IT support & maintenance </h2>   
+          <BiSupport className='icons'/>
+          <h2>Logo Designing</h2>   
           <p>Our web development team creates user-friendly, responsive websites,Our web development team creates user-friendly, responsive websites.</p>            
         </div>
 
         <div className='subox'>
-          <h2>Add website design</h2>   
+          <MdAdd className='icons'/>
+          <h2>Website design</h2>   
           <p>Our web development team creates user-friendly, responsive websites,Our web development team creates user-friendly, responsive websites.</p>            
         </div>
-
-      </div>  
+      </div>
+      <p></p> 
     </div>
   )
 }
