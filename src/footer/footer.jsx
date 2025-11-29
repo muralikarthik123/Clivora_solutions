@@ -24,14 +24,14 @@ export default function footer() {
       <div className='c1'>  
         <ul>
             <h1>Services</h1>
-            <Link to='/' style={{textDecoration:'none',color:'white'}}><li>Home</li></Link>
-            <Link to='/about' style={{textDecoration:'none',color:'white'}}><li>About</li></Link>
-            <Link to='/cont' style={{textDecoration:'none',color:'white'}}><li>Contact</li></Link>
-            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Services</li></Link>
-            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Clients</li></Link>
-            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Why ARVAT</li></Link>
-            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Careers</li></Link>
-            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Contact us</li></Link>
+            <Link to='/' style={{textDecoration:'none',color:'white'}}><li>Web development</li></Link>
+            <Link to='/about' style={{textDecoration:'none',color:'white'}}><li>Cloud</li></Link>
+            <Link to='/cont' style={{textDecoration:'none',color:'white'}}><li>SAP</li></Link>
+            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>App development</li></Link>
+            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Website design</li></Link>
+            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Logo design</li></Link>
+            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Software testing</li></Link>
+            <Link to='/services' style={{textDecoration:'none',color:'white'}}><li>Automation Testing</li></Link>
         </ul>
       </div>
 

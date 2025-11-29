@@ -17,7 +17,7 @@
             align-items: center;
             color:white;
             padding-right: 10px;
-            font-size: 1.1rem;
+            font-size: 0.8rem;
             height:10vh;
             p{
                 font-weight: 800;
@@ -25,7 +25,7 @@
             ul{
                 display:flex;
                 gap:15px;
-                font-size: 0.9rem;
+                font-size: 1rem;
                 li{
                     list-style-type: none;
                     cursor: pointer;
@@ -50,7 +50,7 @@
                 .icon1{
                     font-size: 30px;
                     color:white;
-                    margin-left: 50%;
+                    margin-left: 30%;
                 }
             }
         }
@@ -71,13 +71,6 @@
                 list-style-type: none;
                 border: 0.5px solid #176d7c;
                 height:50px;
-                /* .close{
-                    padding-left: 80%;
-                    color: #ffc107;
-                    .icon2{
-                        font-size: 30px;
-                    }
-                } */
                 button{
                     display:none;
                     
@@ -195,7 +188,7 @@
             align-items: center;
             color:black;
             padding-right: 10px;
-            font-size: 0.9rem;
+            font-size: 1rem;
             p{
                 font-weight: 800;
             }
@@ -203,7 +196,7 @@
                 display:flex;
                 gap:15px;
                 margin-left: 62%;
-                font-size: 0.9rem;
+                font-size: 1rem;
                 li{
                     list-style-type: none;
                     cursor: pointer;
