@@ -40,16 +40,10 @@ export default function footer() {
         <ul>
             <h1>Address-1</h1>
         <p><a  style={{textDecoration:'none',color:'white'}} href='https://maps.app.goo.gl/7YSSR65GNK5xzp928'>Office #409, 4th Floor, Jain sadguru image's capital park, Ayyappa Society, VIP Hills, Jaihind Enclave, Madhapur, Hyderabad, Telangana 500081</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.266714422698!2d78.38363737414267!3d17.44694390108873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb910d8d1c4f8b%3A0x6ef1b184af90fa3f!2sCapital%20Park!5e0!3m2!1sen!2sin!4v1764424765349!5m2!1sen!2sin" title="a" style={{borderradius:'10px'}}></iframe>
         </ul>
       </div>
-
-      {/*social*/}
-      <div className='c1'>
-        <ul>
-            <h1>Address-2</h1>
-            <p><a  style={{textDecoration:'none',color:'white'}} href='https://maps.app.goo.gl/7YSSR65GNK5xzp928'>Office #409, 4th Floor, Jain sadguru image's capital park, Ayyappa Society, VIP Hills, Jaihind Enclave, Madhapur, Hyderabad, Telangana 500081.</a></p>
-        </ul>
-      </div>
+      
     </div>
   )
 }

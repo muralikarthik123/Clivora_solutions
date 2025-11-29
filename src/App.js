@@ -6,6 +6,7 @@ import About from './about/about.jsx'
 import Services from './services/services.jsx'
 import Contact from './contact/contact.jsx'
 import {  BrowserRouter, Route,Routes } from 'react-router-dom'
+import Clients from './client/client.jsx'
 export default function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/clients' element={<Clients/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

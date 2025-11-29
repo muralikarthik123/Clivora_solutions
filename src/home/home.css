@@ -137,6 +137,40 @@
             }
             
         }
+        .box6{
+            width:100%;
+            background-color: #eae2e2;
+            height:auto;
+            padding-top: 5px;
+            display:flex;
+            flex-direction: column;
+            gap:5%;
+            padding-left: 5%;
+            p,h2{
+                width:90%;
+                text-align: center;
+            }
+            .box6menu{
+                display:flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap:10px;
+                .icons{
+                    font-size: 2.5rem;
+                    margin-top: 5%;
+                }
+                .box6sub1{
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border:1px solid #111425;
+                    background-color:#111425;
+                    color:White;
+                    border-radius:15px;
+                    width:95%;
+                }
+            }
+        }
     }
 }
 @media(min-width:1200px){
@@ -171,11 +205,10 @@
             width:100%;
             display:flex;
             background-color: #eae2e2;
-            gap:5%;
-            height: 80vh;
+            gap:2%;
             align-items: center;
+            padding-top: 10px;
             .subbox{
-                height: 60vh;
                 .icons{
                     font-size: 3.5rem;
                     margin-left: 10%;
@@ -243,14 +276,13 @@
             width:100%;
             display:flex;
             background-color: #111425;
-            height:100vh;
             padding: 5%;
             gap:5%;
             .box5sub1{
                 background-color: #111425;
                 color:white;  
                 border-radius: 20px;
-                width:80%;
+                min-width:40%;
                 border:1px solid white;
                 p{
                     padding-left: 2%;
@@ -275,11 +307,10 @@
                 color: white;
                 display: flex;
                 flex-direction: column;
-                gap: 20%;
+                gap:15px;
                   .box5sub3{
                     border: 1px solid white;
                     width:100%;
-                    height:40vh;
                     padding-left: 10%;
                     padding-top: 10px;
                     border-radius: 20px;
@@ -295,7 +326,7 @@
                     background-color: white;
                     color:#111425;
                     width:100%;
-                    height:40vh;
+                 
                     padding-left: 10%;
                     padding-top: 10px;
                     border-radius: 20px;
@@ -309,6 +340,43 @@
                 }
             }
             
+        }
+        .box6{
+            width:100%;
+            background-color: #eae2e2;
+            height:auto;
+            padding: 5%;
+            display:flex;
+            flex-direction: column;
+            gap:5%;
+            .box6menu{
+                display:flex;
+                justify-content: space-between;
+                .icons{
+                    font-size: 2.5rem;
+                    margin-top: 5%;
+                }
+                .box6sub1{
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border:1px solid #111425;
+                    background-color:#111425;
+                    color:White;
+                    border-radius:15px;
+                    width:22%;
+                    padding: 2%;
+                    transition:  background-color 5s;
+                }
+                .box6sub1:hover{
+                    transition:5s;
+                    width:22%;
+                    background-color:White;
+                    color:#111425;
+                    border-radius:15px;
+                    
+                }
+            }
         }
     }
 }

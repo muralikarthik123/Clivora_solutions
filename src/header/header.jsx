@@ -54,7 +54,7 @@ export default function Header() {
             <li><Link to='/about' onClick={close}   className='linking'>About</Link></li>
             <li><Link to='/services' onClick={close}  className='linking'>Services</Link></li>
             <li><Link to='/contact' onClick={close} className='linking'>Contact</Link></li>
-            <li><Link to='/about' onClick={close}   className='linking'>Clients</Link></li>
+            <li><Link to='/clients' onClick={close}   className='linking'>Clients</Link></li>
             </ul>
         </div>
     </div>
